@@ -1,0 +1,59 @@
+{
+  "name": "expo-multi-touch",
+  "version": "0.0.0",
+  "description": "Module for getting events whenever a individual touch changes",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "files": ["lib"],
+  "main": "lib/index.js",
+  "homepage": "https://github.com/expo/expo-multi-touch#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expo/expo-multi-touch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/expo/expo-multi-touch/issues"
+  },
+  "author": {
+    "email": "bacon@expo.io",
+    "name": "Evan Bacon"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "expo",
+    "exponent",
+    "touch",
+    "gesture",
+    "event",
+    "tool",
+    "game"
+  ],
+  "eslintConfig": {
+    "extends": "universe/native"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "pre-push": ["lint"],
+  "scripts": {
+    "prepush": "npm run lint",
+
+    "lint:examples": "eslint examples/",
+    "lint": "eslint lib/",
+    "lint:fix": "eslint lib/ --fix"
+  },
+  "peerDependencies": {
+    "react": "^16.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "eslint-config-universe": "^1.0.6",
+    "eslint-plugin-jest": "^21.2.0",
+    "husky": "^0.14.3",
+    "jest": "^22.4.2",
+    "jest-expo": "^25.1.0",
+    "prettier": "^1.7.4"
+  }
+}
