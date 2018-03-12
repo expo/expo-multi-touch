@@ -3,6 +3,7 @@
     "name": "Example",
     "description": "expo-multi-touch example",
     "slug": "expo-multi-touch",
+    "privacy": "public",
     "sdkVersion": "25.0.0",
     "version": "1.0.0",
     "primaryColor": "#E44262",
