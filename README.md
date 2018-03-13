@@ -54,6 +54,9 @@ event = (event, gestureState) => {}
 
 ## Example
 
+* [General example](https://snack.expo.io/H1duYsHKG)
+* [Joystick example](https://snack.expo.io/@bacon/joystick)
+
 **Snack**
 
 ```js
